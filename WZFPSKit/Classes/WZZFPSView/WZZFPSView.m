@@ -18,15 +18,19 @@
 @implementation WZZFPSView
 
 + (void)showFPS {
-    CGRect statusRect = [[UIApplication sharedApplication] statusBarFrame];
-    CGFloat y = 0;
-    if (statusRect.size.height > 20) {
-        y = 44;
-    }
-    CGRect fpsViewFrame = CGRectMake([UIScreen mainScreen].bounds.size.width-150, y, 80, 20);
-    WZZFPSView *fpsview = [[WZZFPSView alloc] initWithFrame:fpsViewFrame];
-    fpsview.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.700];
-    [[UIApplication sharedApplication].keyWindow addSubview:fpsview];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        CGRect statusRect = [[UIApplication sharedApplication] statusBarFrame];
+        CGFloat y = 0;
+        if (statusRect.size.height > 20) {
+            y = 44;
+        }
+        CGRect fpsViewFrame = CGRectMake([UIScreen mainScreen].bounds.size.width-150, y, 80, 20);
+        WZZFPSView *fpsview = [[WZZFPSView alloc] initWithFrame:fpsViewFrame];
+        fpsview.backgroundColor = [UIColor colorWithWhite:0.000 alpha:0.700];
+        [[UIApplication sharedApplication].keyWindow addSubview:fpsview];
+    });
+    
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
