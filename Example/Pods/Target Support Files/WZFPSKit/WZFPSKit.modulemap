@@ -1,0 +1,6 @@
+framework module WZFPSKit {
+  umbrella header "WZFPSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
