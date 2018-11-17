@@ -7,6 +7,8 @@
 //
 
 #import "WZViewController.h"
+#import <WZFPSKit/WZZFPSView.h>
+#import "WZHomeViewController.h"
 
 @interface WZViewController ()
 
@@ -17,7 +19,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [WZZFPSView showFPS];
+}
+
+- (IBAction)push:(id)sender {
+    WZHomeViewController *vc = [[WZHomeViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

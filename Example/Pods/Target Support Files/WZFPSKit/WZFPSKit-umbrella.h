@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WZZFPSView.h"
 
 FOUNDATION_EXPORT double WZFPSKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WZFPSKitVersionString[];

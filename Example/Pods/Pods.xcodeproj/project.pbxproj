@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B29A81C203153E235D26219D7275B6E /* WZFPSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A58386A50BC000F74C415C46018D6 /* WZFPSKit-dummy.m */; };
 		412F522BEC6B85B50241AD46E4557C59 /* Pods-WZFPSKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBC63DD4156D06A9DF6EC1CF919B0B8 /* Pods-WZFPSKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8D04D1A9339939C8662866E3DC5595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5E2C7E51B16EEDE574E95817E1A615A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		63F74D435CCA177F9D404567DC41336C /* Pods-WZFPSKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A016A1675C584D6465A8D0F37CC22A8 /* Pods-WZFPSKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		688DD34577955E573F1DA96758A555B5 /* Pods-WZFPSKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D896F49C90052742081B73D1830E6C81 /* Pods-WZFPSKit_Example-dummy.m */; };
-		75136121762FB8044EBF4653530D8C87 /* WZFPSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4BA42BAA4AAC407EFCDB25372B9B54 /* WZFPSKit-dummy.m */; };
+		8CAF25206082A6F1D8B2169201DB4571 /* WZFPSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E577B675A9C58D22886D304E8AFB31 /* WZFPSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B3814280522087F038BF3AA16E34A1D /* Pods-WZFPSKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B066A8AF3182EA9D7D7F31B7BF5ACBEA /* Pods-WZFPSKit_Tests-dummy.m */; };
-		A10F42F801A4C8EA7D5093FF9CEE5EC6 /* WZFPSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B71BEDA8E9894B89389B44A4BD72705 /* WZFPSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFED227208AA1E216F4EA119EC19838 /* WZZFPSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5CAE5B818C5C64B63F0B2866DE060B /* WZZFPSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4727974BE1F1CA9754FB6933A8E561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F49BE5A28842E9E1C57F8D1ACA82DF09 /* WZZFPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA247E0B24F7FB917BCDD535FB35521 /* WZZFPSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,39 +39,41 @@
 
 /* Begin PBXFileReference section */
 		005AA3A2C56F0A0CF98891FB1E17AA45 /* Pods-WZFPSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFPSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		08DFFBE29571ACB199630FCC1D272F43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03FE6B259E472E10E5FFF8A8229B4F00 /* WZFPSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFPSKit.xcconfig; sourceTree = "<group>"; };
 		09AF1BC8137C85F39E29C1DA4FE37649 /* Pods-WZFPSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFPSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BD59D85F967E39549C3734F208A4AE0 /* Pods-WZFPSKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZFPSKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E3C98C1A1841587AB24A1196724D5D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E4EE5A63B018918BC4110C35866F23B /* Pods-WZFPSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFPSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		185DB0DF632EB89F77F92D772679C012 /* WZFPSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZFPSKit.modulemap; sourceTree = "<group>"; };
 		19801036B03A1544C56284308E680C2F /* Pods-WZFPSKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZFPSKit_Example.modulemap"; sourceTree = "<group>"; };
 		1DBC63DD4156D06A9DF6EC1CF919B0B8 /* Pods-WZFPSKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZFPSKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		205B4C366E8447E265B800AECA01013A /* WZFPSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZFPSKit.xcconfig; sourceTree = "<group>"; };
-		2B71BEDA8E9894B89389B44A4BD72705 /* WZFPSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFPSKit-umbrella.h"; sourceTree = "<group>"; };
+		2A934F798BF829501883B2574C71695E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		45880FB6685C75E841BAB51DE791CF5F /* Pods-WZFPSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFPSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		49A44454B682D4B0E23827CC340BD45B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		48E577B675A9C58D22886D304E8AFB31 /* WZFPSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFPSKit-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C0EC8F2BE34F3CE235B48F423AA1FCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AC935108EF1FE1CF888D3FD25CA050 /* WZFPSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFPSKit-prefix.pch"; sourceTree = "<group>"; };
+		67E989D7228122B00BF842E0D29F54A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A98C5A941D76777E51621A810DD7540 /* WZFPSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WZFPSKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A016A1675C584D6465A8D0F37CC22A8 /* Pods-WZFPSKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZFPSKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		7A140A48456D066B268D9299AAE690A5 /* Pods-WZFPSKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZFPSKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B5CAE5B818C5C64B63F0B2866DE060B /* WZZFPSView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZZFPSView.h; path = WZFPSKit/Classes/WZZFPSView/WZZFPSView.h; sourceTree = "<group>"; };
+		7B641E06F44B15608F8332D7D6508F6E /* WZFPSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZFPSKit.modulemap; sourceTree = "<group>"; };
 		853D578F99CC7114C1E98A0A9677A283 /* Pods-WZFPSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZFPSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		926C0AD8E94C2C3242EB0FB72451085C /* Pods-WZFPSKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZFPSKit_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D4BA42BAA4AAC407EFCDB25372B9B54 /* WZFPSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZFPSKit-dummy.m"; sourceTree = "<group>"; };
-		9D68416E10515F289C050AF6F48BBC06 /* Pods_WZFPSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZFPSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D68416E10515F289C050AF6F48BBC06 /* Pods_WZFPSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZFPSKit_Tests.framework; path = "Pods-WZFPSKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48A686548190625D5881B842EB890B3 /* Pods-WZFPSKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZFPSKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B066A8AF3182EA9D7D7F31B7BF5ACBEA /* Pods-WZFPSKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZFPSKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		C3740884894711541A709F432879D3FA /* WZFPSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WZFPSKit.podspec; sourceTree = "<group>"; };
-		D161BFAC1FF39D6D04A937441898CB8B /* WZFPSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZFPSKit-prefix.pch"; sourceTree = "<group>"; };
+		C30A58386A50BC000F74C415C46018D6 /* WZFPSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZFPSKit-dummy.m"; sourceTree = "<group>"; };
+		CEA247E0B24F7FB917BCDD535FB35521 /* WZZFPSView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WZZFPSView.m; path = WZFPSKit/Classes/WZZFPSView/WZZFPSView.m; sourceTree = "<group>"; };
 		D21EC14B0FF31AE8086A9AFB8D4A0E38 /* Pods-WZFPSKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZFPSKit_Example-resources.sh"; sourceTree = "<group>"; };
-		D83F878140991DC7B7B2E97C97693333 /* Pods_WZFPSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZFPSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83F878140991DC7B7B2E97C97693333 /* Pods_WZFPSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZFPSKit_Example.framework; path = "Pods-WZFPSKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D896F49C90052742081B73D1830E6C81 /* Pods-WZFPSKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZFPSKit_Example-dummy.m"; sourceTree = "<group>"; };
 		D8D7ABF555CF4F25FE5C5E544DD5C063 /* Pods-WZFPSKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZFPSKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D8ECF51FBF248BF0D1AB3DD4F0771367 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9DAA32A2C0ED05BC0BD2491490B898 /* Pods-WZFPSKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZFPSKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		F07838A46D4D3511E7D0AFC5DA61C2ED /* Pods-WZFPSKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZFPSKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F262FC4E17A32AAB366207B8916856DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F97FA45652DA98A9BB85234B1DCE1201 /* WZFPSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZFPSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97FA45652DA98A9BB85234B1DCE1201 /* WZFPSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZFPSKit.framework; path = WZFPSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,38 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C4F87E8A2907BFF3EF5C8A1606ADD4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				49A44454B682D4B0E23827CC340BD45B /* LICENSE */,
-				08DFFBE29571ACB199630FCC1D272F43 /* README.md */,
-				C3740884894711541A709F432879D3FA /* WZFPSKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		039C062D5371DDF8C297234200783E49 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F262FC4E17A32AAB366207B8916856DA /* Info.plist */,
-				185DB0DF632EB89F77F92D772679C012 /* WZFPSKit.modulemap */,
-				205B4C366E8447E265B800AECA01013A /* WZFPSKit.xcconfig */,
-				9D4BA42BAA4AAC407EFCDB25372B9B54 /* WZFPSKit-dummy.m */,
-				D161BFAC1FF39D6D04A937441898CB8B /* WZFPSKit-prefix.pch */,
-				2B71BEDA8E9894B89389B44A4BD72705 /* WZFPSKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WZFPSKit";
-			sourceTree = "<group>";
-		};
-		0693DCE3FD805D7AF2B622DA09BB2AEF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97BC3278354E513BBBF6C795F475784D /* WZFPSKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		16A1D6408A5ADAB84E74D06227268C1B /* Pods-WZFPSKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +120,14 @@
 			);
 			name = "Pods-WZFPSKit_Tests";
 			path = "Target Support Files/Pods-WZFPSKit_Tests";
+			sourceTree = "<group>";
+		};
+		33A07502C0596D29CDC3F8A74BA936BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61092AF93162CEB698D4FF4333828AD4 /* WZFPSKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3CA36B4EAC5C6A4FCF93AE83C3FDBBBD /* Products */ = {
@@ -178,6 +158,20 @@
 			path = "Target Support Files/Pods-WZFPSKit_Example";
 			sourceTree = "<group>";
 		};
+		5425DA80EC2B06F6300ADF4E9930FEA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3C98C1A1841587AB24A1196724D5D4 /* Info.plist */,
+				7B641E06F44B15608F8332D7D6508F6E /* WZFPSKit.modulemap */,
+				03FE6B259E472E10E5FFF8A8229B4F00 /* WZFPSKit.xcconfig */,
+				C30A58386A50BC000F74C415C46018D6 /* WZFPSKit-dummy.m */,
+				66AC935108EF1FE1CF888D3FD25CA050 /* WZFPSKit-prefix.pch */,
+				48E577B675A9C58D22886D304E8AFB31 /* WZFPSKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZFPSKit";
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,11 +180,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		60724E244FE889A9B22F94D6B9421FB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2A934F798BF829501883B2574C71695E /* LICENSE */,
+				67E989D7228122B00BF842E0D29F54A7 /* README.md */,
+				6A98C5A941D76777E51621A810DD7540 /* WZFPSKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61092AF93162CEB698D4FF4333828AD4 /* WZFPSKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CAE5B818C5C64B63F0B2866DE060B /* WZZFPSView.h */,
+				CEA247E0B24F7FB917BCDD535FB35521 /* WZZFPSView.m */,
+				60724E244FE889A9B22F94D6B9421FB0 /* Pod */,
+				5425DA80EC2B06F6300ADF4E9930FEA1 /* Support Files */,
+			);
+			name = WZFPSKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0693DCE3FD805D7AF2B622DA09BB2AEF /* Development Pods */,
+				33A07502C0596D29CDC3F8A74BA936BE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3CA36B4EAC5C6A4FCF93AE83C3FDBBBD /* Products */,
 				96E6D01483DE633CC3359A812A928674 /* Targets Support Files */,
@@ -204,16 +220,6 @@
 				16A1D6408A5ADAB84E74D06227268C1B /* Pods-WZFPSKit_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		97BC3278354E513BBBF6C795F475784D /* WZFPSKit */ = {
-			isa = PBXGroup;
-			children = (
-				01C4F87E8A2907BFF3EF5C8A1606ADD4 /* Pod */,
-				039C062D5371DDF8C297234200783E49 /* Support Files */,
-			);
-			name = WZFPSKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -243,11 +249,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0725D972EEE702C3E09EEDA0B890D52 /* Headers */ = {
+		FD7FB0DB1E9E6307ED550C8DF3FF6310 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10F42F801A4C8EA7D5093FF9CEE5EC6 /* WZFPSKit-umbrella.h in Headers */,
+				8CAF25206082A6F1D8B2169201DB4571 /* WZFPSKit-umbrella.h in Headers */,
+				ADFED227208AA1E216F4EA119EC19838 /* WZZFPSView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +265,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77603B2E5F17D92F85074881A56DB3B /* Build configuration list for PBXNativeTarget "WZFPSKit" */;
 			buildPhases = (
-				0BA87C3109BC228594D9F27E92CC3A19 /* Sources */,
+				52AFC8786D0EE12CB436E1D09C0448FD /* Sources */,
 				4B3CFB986403EE32FECC54177033B43E /* Frameworks */,
-				F0725D972EEE702C3E09EEDA0B890D52 /* Headers */,
+				FD7FB0DB1E9E6307ED550C8DF3FF6310 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -336,11 +343,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BA87C3109BC228594D9F27E92CC3A19 /* Sources */ = {
+		52AFC8786D0EE12CB436E1D09C0448FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75136121762FB8044EBF4653530D8C87 /* WZFPSKit-dummy.m in Sources */,
+				1B29A81C203153E235D26219D7275B6E /* WZFPSKit-dummy.m in Sources */,
+				F49BE5A28842E9E1C57F8D1ACA82DF09 /* WZZFPSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +388,7 @@
 /* Begin XCBuildConfiguration section */
 		5086BCB265CE530C5609341B7EFE21ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 205B4C366E8447E265B800AECA01013A /* WZFPSKit.xcconfig */;
+			baseConfigurationReference = 03FE6B259E472E10E5FFF8A8229B4F00 /* WZFPSKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -411,7 +419,7 @@
 		};
 		5EAAA70BF585B269AD27A11AA66AD8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 205B4C366E8447E265B800AECA01013A /* WZFPSKit.xcconfig */;
+			baseConfigurationReference = 03FE6B259E472E10E5FFF8A8229B4F00 /* WZFPSKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

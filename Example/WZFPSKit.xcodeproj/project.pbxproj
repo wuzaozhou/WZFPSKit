@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		87F57589219FCFAB00ECD8D2 /* WZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F57587219FCFAB00ECD8D2 /* WZHomeViewController.m */; };
+		87F5758A219FCFAB00ECD8D2 /* WZHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F57588219FCFAB00ECD8D2 /* WZHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44AE0A6D1BC26BC873346607 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		44AE0A6D1BC26BC873346607 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WZFPSKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZFPSKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +62,16 @@
 		638D0B9166C01BF5AD3E9CF4 /* Pods-WZFPSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZFPSKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZFPSKit_Example/Pods-WZFPSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D67904123EFF8BBC482BE1E /* Pods-WZFPSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZFPSKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZFPSKit_Tests/Pods-WZFPSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85D954E28C64C15A21841B42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85D954E28C64C15A21841B42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87F57586219FCFAB00ECD8D2 /* WZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHomeViewController.h; sourceTree = "<group>"; };
+		87F57587219FCFAB00ECD8D2 /* WZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHomeViewController.m; sourceTree = "<group>"; };
+		87F57588219FCFAB00ECD8D2 /* WZHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZHomeViewController.xib; sourceTree = "<group>"; };
 		97782E486FFE0B8C1595295D /* Pods-WZFPSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZFPSKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZFPSKit_Example/Pods-WZFPSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A37FEDFEBA88BDA3DBE0536E /* Pods_WZFPSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZFPSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14E5AE2404B5D75535BB437 /* Pods-WZFPSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZFPSKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZFPSKit_Tests/Pods-WZFPSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0FFFAAA14E891DD8C9E0DFF /* Pods_WZFPSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZFPSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E9D4E1755B6A1805DEEAD4 /* WZFPSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WZFPSKit.podspec; path = ../WZFPSKit.podspec; sourceTree = "<group>"; };
+		F0E9D4E1755B6A1805DEEAD4 /* WZFPSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZFPSKit.podspec; path = ../WZFPSKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,9 @@
 		6003F593195388D20070C39A /* Example for WZFPSKit */ = {
 			isa = PBXGroup;
 			children = (
+				87F57586219FCFAB00ECD8D2 /* WZHomeViewController.h */,
+				87F57587219FCFAB00ECD8D2 /* WZHomeViewController.m */,
+				87F57588219FCFAB00ECD8D2 /* WZHomeViewController.xib */,
 				6003F59C195388D20070C39A /* WZAppDelegate.h */,
 				6003F59D195388D20070C39A /* WZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -247,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wuzaozhou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HA5TWCEPGU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				87F5758A219FCFAB00ECD8D2 /* WZHomeViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -357,6 +369,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WZViewController.m in Sources */,
+				87F57589219FCFAB00ECD8D2 /* WZHomeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +498,7 @@
 			baseConfigurationReference = 638D0B9166C01BF5AD3E9CF4 /* Pods-WZFPSKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HA5TWCEPGU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZFPSKit/WZFPSKit-Prefix.pch";
 				INFOPLIST_FILE = "WZFPSKit/WZFPSKit-Info.plist";
@@ -500,6 +514,7 @@
 			baseConfigurationReference = 97782E486FFE0B8C1595295D /* Pods-WZFPSKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HA5TWCEPGU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WZFPSKit/WZFPSKit-Prefix.pch";
 				INFOPLIST_FILE = "WZFPSKit/WZFPSKit-Info.plist";
