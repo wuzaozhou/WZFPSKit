@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WZFPSKit_Example' do
+  pod 'WZFPSKit', :path => '../'
+
+  target 'WZFPSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
